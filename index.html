@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mental Health Programme</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Nunito+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6FAF3;--card:#FFFFFF;--alt:#F0F7EC;--topic:#DCEBD3;--ink:#16241B;--soft:#2F5A43;--line:#C9DCC0;--dg:#1F5A3A;--mg:#2F7A4F;--lg:#8CC671;--hero:#1F5A3A;--herotx:#F6FAF3;--herosoft:#DCEBD3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0E1A13;--card:#15271D;--alt:#122219;--topic:#1E3A29;--ink:#E8F2E4;--soft:#B5D3BF;--line:#2A4535;--dg:#9ED68A;--mg:#2F7A4F;--lg:#8CC671;--hero:#173F2A;--herotx:#F6FAF3;--herosoft:#C9E3BE}}
+:root[data-theme="dark"]{--bg:#0E1A13;--card:#15271D;--alt:#122219;--topic:#1E3A29;--ink:#E8F2E4;--soft:#B5D3BF;--line:#2A4535;--dg:#9ED68A;--mg:#2F7A4F;--lg:#8CC671;--hero:#173F2A;--herotx:#F6FAF3;--herosoft:#C9E3BE}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Nunito Sans',system-ui,sans-serif;line-height:1.45}
+.hero{background:var(--hero);color:var(--herotx);text-align:center;padding:40px 20px 52px;position:relative;overflow:hidden;border-radius:0 0 50% 50% / 0 0 26px 26px}
+.hero::before,.hero::after{content:"";position:absolute;width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.06)}
+.hero::before{left:-40px;top:-30px}.hero::after{right:-30px;bottom:-50px}
+.kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;font-weight:700;color:#BFE0AE}
+h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,12vw,64px);line-height:1.05;margin:10px 0 0}
+.bar{width:70px;height:3px;background:var(--lg);margin:16px auto;border-radius:2px}
+.venue{font-weight:700;font-size:16px;margin:0}
+.start{margin:6px 0 0;color:var(--herosoft)}
+main{max-width:760px;margin:0 auto;padding:22px 16px 40px}
+.head{display:none}
+ul{list-style:none;margin:0;padding:0;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.row{display:grid;grid-template-columns:1fr;gap:4px;padding:13px 16px;background:var(--card);border-bottom:1px solid var(--line)}
+.row:nth-child(even){background:var(--alt)}
+.row.topic{background:var(--topic)}
+.row:last-child{border-bottom:0}
+time{font-weight:700;color:var(--dg);font-size:15px}
+.act{font-size:16px}
+.topic .act{font-weight:700}
+.who{font-size:14px;color:var(--soft)}
+.role{display:block}.names{display:block;color:var(--dg)}
+@media(min-width:640px){
+.head,.row{display:grid;grid-template-columns:130px 1fr 200px;gap:16px;align-items:center;padding:12px 18px}
+.head{background:var(--mg);color:#fff;font-weight:700;font-size:13px;letter-spacing:.06em;border-radius:12px 12px 0 0}
+ul{border-radius:0 0 12px 12px}}
+.leafbar{height:14px;background:var(--lg)}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="kicker">Programme of Activities</div>
+<h1>Mental Health</h1>
+<div class="bar"></div>
+<p class="venue">Christ With Us Christian Church, Shabalala RDP Entrance</p>
+<p class="start">Starting time: 10:00 AM</p>
+</header>
+<main>
+<div class="head"><div>TIME</div><div>ACTIVITY</div><div>RESPONSIBLE PERSON</div></div>
+<ul>
+<li class="row"><time>09:00 – 09:30</time><div class="act">Registration and welcoming of participants</div><div class="who"><span class="role">Registration team</span></div></li>
+<li class="row"><time>09:30 – 09:40</time><div class="act">Opening prayer or moment of reflection</div><div class="who"><span class="role">Programme director</span></div></li>
+<li class="row"><time>09:40 – 09:50</time><div class="act">Welcome remarks and introduction of the theme</div><div class="who"><span class="role">Event organiser</span></div></li>
+<li class="row"><time>09:50 – 10:00</time><div class="act">Purpose and objectives of the event</div><div class="who"><span class="role">Programme director</span></div></li>
+<li class="row topic"><time>10:00 – 10:30</time><div class="act">Topic 1: Mental Health Awareness, Emotional Well-being and Coping Strategies</div><div class="who"><span class="role">Social Worker</span><strong class="names">Ms Nobuhle Mkhonza and Lungile Ngobese</strong></div></li>
+<li class="row"><time>10:30 – 10:45</time><div class="act">Questions and answers</div><div class="who"></div></li>
+<li class="row"><time>10:45 – 11:00</time><div class="act">Tea break and refreshments</div><div class="who"><span class="role">Organising team</span></div></li>
+<li class="row topic"><time>11:00 – 11:30</time><div class="act">Topic 2: Mental Health, Entrepreneurship and Financial Well-being</div><div class="who"><span class="role">Entrepreneur</span><strong class="names">Mrs B Chiloane</strong></div></li>
+<li class="row"><time>11:30 – 11:45</time><div class="act">Questions and answers</div><div class="who"></div></li>
+<li class="row topic"><time>11:45 – 12:15</time><div class="act">Topic 3: Nutrition and Its Role in Mental Health</div><div class="who"><span class="role">Dietitian</span><strong class="names">Mrs Thandiwe Mhlaba</strong></div></li>
+<li class="row"><time>12:15 – 12:30</time><div class="act">Questions and answers</div><div class="who"></div></li>
+<li class="row"><time>12:30 – 12:45</time><div class="act">Group discussion: Breaking the stigma surrounding mental health</div><div class="who"><span class="role">All participants</span></div></li>
+<li class="row"><time>12:45 – 12:55</time><div class="act">Vote of thanks and key messages</div><div class="who"><span class="role">Event organiser</span></div></li>
+<li class="row"><time>12:55 – 13:00</time><div class="act">Closing remarks and final prayer, if applicable</div><div class="who"><span class="role">Programme director</span></div></li>
+<li class="row"><time>13:00</time><div class="act">Networking and departure</div><div class="who"><span class="role">All participants</span></div></li>
+</ul>
+</main>
+<div class="leafbar"></div>
+</body>
+</html>
